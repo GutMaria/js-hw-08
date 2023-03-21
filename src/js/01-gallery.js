@@ -1,7 +1,13 @@
-import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
-// Додатковий імпорт стилівn
 import "simplelightbox/dist/simple-lightbox.min.css";
+import { galleryItems } from './gallery-items';
+
+
+// -------------В розробці все працює, при виконанні Build на GitHub з цією бібліотекою проблеми!!!!!!----------------
+// import {SimpleLightbox} from "./node_modules/simplelightbox/dist/simple-lightbox.min.js";
+// import SimpleLightbox from '../../node_modules/simplelightbox/dist/simple-lightbox.min'
+// const  SimpleLightbox = require('simple-lightbox');
+// Додатковий імпорт стилівn
 // Change code below this line
 console.log(galleryItems);
 
